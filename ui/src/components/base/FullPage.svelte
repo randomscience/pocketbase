@@ -10,12 +10,12 @@
             <div class="block txt-center m-b-lg">
                 <figure class="logo">
                     <img
-                        src="{import.meta.env.BASE_URL}images/logo.svg"
+                        src="{import.meta.env.BASE_URL}images/logo.png"
                         alt="PocketBase logo"
                         width="40"
                         height="40"
                     />
-                    <span class="txt">Pocket<strong>Base</strong></span>
+                    <span class="txt">Random Science</span>
                 </figure>
             </div>
             <div class="clearfix" />
