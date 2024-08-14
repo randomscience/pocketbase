@@ -31,30 +31,30 @@
     {#if isLoading}
         <div class="txt-center">
             <div class="loader loader-lg">
-                <em>Please wait...</em>
+                <em>Ładowanie...</em>
             </div>
         </div>
     {:else if success}
         <div class="alert alert-success">
             <div class="icon"><i class="ri-checkbox-circle-line" /></div>
             <div class="content txt-bold">
-                <p>Successfully verified email address.</p>
+                <p>Adres email został zweryfikowany</p>
             </div>
         </div>
 
         <button type="button" class="btn btn-transparent btn-block" on:click={() => window.close()}>
-            Close
+            Zamknij
         </button>
     {:else}
         <div class="alert alert-danger">
             <div class="icon"><i class="ri-error-warning-line" /></div>
             <div class="content txt-bold">
-                <p>Invalid or expired verification token.</p>
+                <p>Błąd weryfikacji adresu email</p>
             </div>
         </div>
 
         <button type="button" class="btn btn-transparent btn-block" on:click={() => window.close()}>
-            Close
+            Zamknij
         </button>
     {/if}
 </FullPage>
